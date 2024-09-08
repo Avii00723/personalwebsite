@@ -63,7 +63,7 @@ fun ProjectBox(colorMode: ColorMode) {
                 .color(if (colorMode.isLight) Colors.Black else Colors.White)
                 .opacity(50.percent)
                 .lineHeight(2)
-                .margin(bottom = 36.px)
+                .margin(bottom = 30.px)
                 .fontWeight(FontWeight.Bold)
                 .textAlign(
                     if (breakpoint <= Breakpoint.SM) TextAlign.Center
@@ -96,7 +96,7 @@ fun ProjectBox(colorMode: ColorMode) {
             ProjectCard(
                 title = "Object Detection App using Flutter and TensorFlow Lite",
                 description = "Developed a mobile application for object detection using Flutter framework and TensorFlow Lite library.",
-                githubLink = "https://github.com/Avii00723/Realtime-Object-Detection",
+                githubLink = "https://github.com/Avii00723/Realtime-Object-Detection/tree/master",
                 colorMode = colorMode,
                 cardWidth = 300.px  // Specify the width here
             )
@@ -117,7 +117,7 @@ fun ProjectCard(title: String, description: String, githubLink: String, colorMod
     val breakpoint = rememberBreakpoint()
     Column(
         modifier = Modifier
-            .fillMaxSize()
+            .fillMaxWidth()
             .padding(all = 50.px),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = if (breakpoint <= Breakpoint.SM)

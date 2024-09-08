@@ -53,11 +53,11 @@ enum class SocialIcon(
 ) {
     Github(
         icon = Res.Icon.GITHUB,
-        link = "https://github.com/stevdza-san"
+        link = "https://github.com/Avii00723"
     ),
     GithubLight(
         icon = Res.Icon.GITHUB_LIGHT,
-        link = "https://github.com/stevdza-san"
+        link = "https://github.com/Avii00723"
     ),
 //    Gitlab(
 //        icon = Res.Icon.GITLAB,

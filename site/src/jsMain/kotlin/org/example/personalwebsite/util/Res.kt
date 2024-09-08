@@ -36,8 +36,9 @@ object Res {
     object String {
         const val NAME="Avinash Wagh"
         const val PROFESSION="Android Developer"
-        const val ABOUT_ME="About Me\n I am a motivated mobile app developer skilled in Flutter, Firebase, Kotlin, and Java. I have experience building applications, including a chat app, with strong expertise in real-time databases and cloud services. I am eager to contribute to innovative solutions and grow in Android development while working with a dynamic team.\n" +
+        const val ABOUT_ME="I am a motivated mobile app developer skilled in Flutter, Firebase, Kotlin, and Java. I have experience building applications, including a chat app, with strong expertise in real-time databases and cloud services. I am eager to contribute to innovative solutions and grow in Android development while working with a dynamic team.\n" +
                 "\n" +
+
                 "\n"
         const val BUTTON_TEXT="Get in touch"
         const val ROBOTO_CONDENSED="RobotoCondensedBold"

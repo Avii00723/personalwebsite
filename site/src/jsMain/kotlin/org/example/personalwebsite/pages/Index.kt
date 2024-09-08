@@ -62,7 +62,7 @@ fun HomePage() {
         Box(
             Modifier
                 .fillMaxSize()
-                .padding(top = 16.px,left = 80.px, right = 80.px)
+                .padding(top = 16.px,left = 80.px, right = 80.px, bottom = 20.px)
                 .backgroundImage(
                     linearGradient(
                         dir = LinearGradient.Direction.ToRight,
